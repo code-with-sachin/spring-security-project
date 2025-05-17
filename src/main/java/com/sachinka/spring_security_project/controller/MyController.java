@@ -11,4 +11,14 @@ public class MyController {
     public String greet() {
         return "Hello";
     }
+
+    @RequestMapping(value = "/user", method = RequestMethod.GET)
+    public String greetUser() {
+        return "Hello, User";
+    }
+
+    @RequestMapping(value = "/admin", method = RequestMethod.GET)
+    public String greetAdmin() {
+        return "Hello, Admin";
+    }
 }
