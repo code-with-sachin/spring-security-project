@@ -1,0 +1,2 @@
+The default user name to login is User
+Password is auto generated at application run time in the console
